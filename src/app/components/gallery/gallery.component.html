@@ -1,0 +1,6 @@
+<div>Recent Photos</div>
+<ul class="image-list">
+  <li class="image-list__item" *ngFor='let image of visibleImages'>
+    <img class="image-list__image" src="{{image.url}}" alt="{{image.caption}}">
+  </li>
+</ul>

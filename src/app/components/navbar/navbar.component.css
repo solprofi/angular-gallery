@@ -1,0 +1,29 @@
+.main-nav__list {
+    list-style: none;
+    display: flex;
+    margin: 20px 0 0 0 ;
+    padding: 0;
+}
+
+.main-nav__item {
+    flex: 1;
+}
+.main-nav__link {
+    text-decoration: none;
+    padding: 10px;
+    background: rgb(192, 102, 102);
+    border: 1px solid red;
+}
+
+.logo {
+    background: rgb(53, 53, 53);
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
